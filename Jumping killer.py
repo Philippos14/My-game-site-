@@ -31,7 +31,7 @@ player_health = 100
 
 # Bullets
 bullets = []
-bullet_speed = 10
+bullet_speed = 30
 
 # Enemies
 enemies = []
@@ -133,5 +133,6 @@ while running:
     # Draw score
     score_text = font.render(f"Score: {score}", True, (0, 0, 0))
     screen.blit(score_text, (WIDTH - 120, 10))
+
 
     pygame.display.flip()
